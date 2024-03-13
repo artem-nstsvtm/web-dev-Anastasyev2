@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>List</title>
+<style>
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+            padding-left: 30px; 
+            position: relative;
+        }
+        li:nth-child(1)::before {
+            content: "";
+            width: 15px; 
+            height: 15px; 
+            background: url("6422206.png") center/cover no-repeat; 
+            position: absolute;
+            left: 0;
+            top: 2px;
+        }
+        li:nth-child(2)::before {
+            content: "";
+            width: 15px; 
+            height: 15px; 
+            background: url("6422200.png") center/cover no-repeat; 
+            position: absolute;
+            left: 0;
+            top: 2px;
+        }
+        li:nth-child(3)::before {
+            content: "";
+            width: 15px; 
+            height: 15px; 
+            background: url("6422199.png") center/cover no-repeat; 
+            position: absolute;
+            left: 0;
+            top: 2px;
+    </style>
+
+</head>
+<body>
+  <ul>
+    <li>Telegram</li>
+	<li>Youtube</li>
+	<li>Facebook</li>
+  </ul> 	
+</body>
+</html>
+
